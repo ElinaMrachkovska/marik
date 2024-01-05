@@ -124,10 +124,12 @@ background: linear-gradient(180deg, #F67E32 19.51%, #742E02 99.16%);
 .about{
 margin-top: 234px;
 margin-left: 152px;
-display: flex;
+display:inline-flex;
 padding: 4px;
 position: relative;
+flex-direction: column;
 
+ 
 }
 .about_toptop{
  
@@ -140,6 +142,9 @@ position: relative;
 }
 .about_a{
 display: flex;
+
+
+
 }
 .img_collage{
   width: 775px;
@@ -147,7 +152,9 @@ display: flex;
   flex-shrink: 0;
   position: absolute;
   top:150px;
-  gap: 81px
+  gap: 81px;
+  
+  
 }
 .about_right{
   position: absolute;
@@ -158,21 +165,44 @@ z-index: 2;
 }
 .about_top{
   position: relative;
-  left:120px;
+  left:126px;
   top:45px;
-  border: 4px solid #000;
-  z-index: 3;
+  border: 2px solid #000;
+  z-index: 4;
 }
 .about_left{
   position: absolute;
   left:0;
   top:104px;
-  border: 4px solid #000;
-  z-index: 4;
+  border: 2px solid #000;
+  z-index: 3;
 }
 .about_bottom{
   position: absolute;
   left:52px;
   top:214px;
+  z-index: 2;
+}
+.devider{
+  width: 3px;
+  height: 384px;
+  border: 1px solid white;
+ 
+}
+.about_b{
   
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.k{
+  display: flex;
+  margin-top: 800px;
+ 
+
+}
+.about_e{
+  display: flex;
+justify-content: space-between;
 }
