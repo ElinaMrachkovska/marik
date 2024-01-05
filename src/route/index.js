@@ -13,26 +13,17 @@ router.get('/', function (req, res) {
 
   //            ↙ cюди вводимо назву файлу з сontainer
   res.render('index', {
-    right: ">",
-    left: "<",
+
   })
 
 })
 // ================================================================
 
 
-router.get('/marik', function (req, res) {
-
-  res.render('marik', {
-    layout: "marik",
-    page: {
-      title: "Marik Page"
-    },
-
-  })
 
 
 
-  // ================================================================
-})
+
+// ================================================================
+
 module.exports = router
